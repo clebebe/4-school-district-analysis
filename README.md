@@ -20,3 +20,5 @@ comparing_budget = student_df.loc[(student_df['school_budget'] == highest_budget
 comparing_budget.groupby(['school_budget','school_name'])[['reading_score','math_score']].mean()
 
 ```
+
+![Additional Analysis](Student_Data_Challenge_Starter_Code/Resources/additional_analysis.jpg)
